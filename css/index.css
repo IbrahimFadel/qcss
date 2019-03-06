@@ -1,0 +1,129 @@
+.button.mg-1,
+h1.mg-1,
+h2.mg-1,
+h3.mg-1,
+h4.mg-1,
+h5.mg-1,
+p.mg-1 {
+  margin: 1rem; }
+
+.button.mg-2,
+h1.mg-2,
+h2.mg-2,
+h3.mg-2,
+h4.mg-2,
+h5.mg-2,
+p.mg-2 {
+  margin: 2rem; }
+
+.button.mg-3,
+h1.mg-3,
+h2.mg-3,
+h3.mg-3,
+h4.mg-3,
+h5.mg-3,
+p.mg-3 {
+  margin: 3rem; }
+
+.button.mg-4,
+h1.mg-4,
+h2.mg-4,
+h3.mg-4,
+h4.mg-4,
+h5.mg-4,
+p.mg-4 {
+  margin: 4rem; }
+
+.button.mg-5,
+h1.mg-5,
+h2.mg-5,
+h3.mg-5,
+h4.mg-5,
+h5.mg-5,
+p.mg-5 {
+  margin: 5rem; }
+
+.button.pd-1,
+h1.pd-1,
+h2.pd-1,
+h3.pd-1,
+h4.pd-1,
+h5.pd-1,
+p.pd-1 {
+  padding: 1rem; }
+
+.button.pd-2,
+h1.pd-2,
+h2.pd-2,
+h3.pd-2,
+h4.pd-2,
+h5.pd-2,
+p.pd-2 {
+  padding: 2rem; }
+
+.button.pd-3,
+h1.pd-3,
+h2.pd-3,
+h3.pd-3,
+h4.pd-3,
+h5.pd-3,
+p.pd-3 {
+  padding: 3rem; }
+
+.button.pd-4,
+h1.pd-4,
+h2.pd-4,
+h3.pd-4,
+h4.pd-4,
+h5.pd-4,
+p.pd-4 {
+  padding: 4rem; }
+
+.button.pd-5,
+h1.pd-5,
+h2.pd-5,
+h3.pd-5,
+h4.pd-5,
+h5.pd-5,
+p.pd-5 {
+  padding: 5rem; }
+
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+p.center {
+  text-align: center; }
+
+h1.left,
+h2.left,
+h3.left,
+h4.left,
+h5.left,
+p.left {
+  text-align: left; }
+
+h1.right,
+h2.right,
+h3.right,
+h4.right,
+h5.right,
+p.right {
+  text-align: right; }
+
+h1.black,
+h2.black,
+h3.black,
+h4.black,
+h5.black,
+p.black {
+  color: black; }
+
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+p.white {
+  color: white; }

@@ -1,0 +1,111 @@
+@import "./variables.scss";
+
+.button {
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  margin: 15px;
+  border: 0px;
+
+  &.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    &:hover {
+      cursor: default;
+    }
+  }
+  &.center {
+    margin: auto;
+  }
+  &.danger {
+    background-color: $danger;
+  }
+  &.secondary {
+    background-color: $secondary;
+  }
+  &.go {
+    background-color: $go;
+  }
+  &.warning {
+    background-color: $warning;
+    color: black;
+  }
+  &.light {
+    background-color: $light;
+    color: black;
+  }
+  &.dark {
+    background-color: $dark;
+  }
+  &.primary {
+    background-color: $primary;
+  }
+
+  &.button-outline {
+    background-color: transparent;
+    color: black;
+    border: $b-1 solid;
+    transition: all 0.5s;
+    &.primary {
+      border: $b-1 solid $primary;
+      color: $primary;
+      &:hover {
+        color: white;
+        background-color: $primary;
+      }
+    }
+    &.danger {
+      border: $b-1 solid $danger;
+      color: $danger;
+      &:hover {
+        color: white;
+        background-color: $danger;
+      }
+    }
+    &.secondary {
+      border: $b-1 solid $secondary;
+      color: $secondary;
+      &:hover {
+        color: white;
+        background-color: $secondary;
+      }
+    }
+    &.go {
+      border: $b-1 solid $go;
+      color: $go;
+      &:hover {
+        color: white;
+        background-color: $go;
+      }
+    }
+    &.warning {
+      border: $b-1 solid $warning;
+      color: $warning;
+      &:hover {
+        color: black;
+        background-color: $warning;
+      }
+    }
+    &.light {
+      border: $b-1 solid $light;
+      color: $light;
+      &:hover {
+        color: black;
+        background-color: $light;
+      }
+    }
+    &.dark {
+      border: $b-1 solid $dark;
+      color: $dark;
+      &:hover {
+        color: white;
+        background-color: $dark;
+      }
+    }
+  }
+}

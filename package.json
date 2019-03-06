@@ -1,0 +1,15 @@
+{
+  "name": "ezcss",
+  "version": "1.0.0",
+  "description": "easy css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "dependencies": {
+    "node-sass": "*"
+  },
+  "author": "Ibrahim Fadel",
+  "license": "ISC"
+}

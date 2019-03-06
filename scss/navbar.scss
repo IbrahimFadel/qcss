@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+.navbar {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    list-style-type: none;`
+  }
+
+  li {
+    float: left;
+    padding-left: 5%;
+  }
+
+  a li {
+    text-decoration: none;
+    color: black;
+  }
+
+  &.full {
+    width: 100%;
+    height: 56px;
+    margin: 0px;
+  }
+  &.primary {
+    background-color: $primary;
+    background: $primary;
+    color: white;
+  }
+  &.light {
+    background-color: $light;
+  }
+  &.dark {
+    background-color: $dark;
+    color: white;
+    a li {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+// misc for miscellaneous
+@import "./variables.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.mg-1 {
+  margin: $mg-1;
+}
+.mg-2 {
+  margin: $mg-2;
+}
+.mg-3 {
+  margin: $mg-3;
+}
+.mg-4 {
+  margin: $mg-4;
+}
+.mg-5 {
+  margin: $mg-5;
+}
+
+.pd-1 {
+  padding: $pd-1;
+}
+.pd-2 {
+  padding: $pd-2;
+}
+.pd-3 {
+  padding: $pd-3;
+}
+.pd-4 {
+  padding: $pd-4;
+}
+.pd-5 {
+  padding: $pd-5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  &.center {
+    text-align: center;
+  }
+  &.left {
+    text-align: left;
+  }
+  &.right {
+    text-align: right;
+  }
+  &.black {
+    color: black;
+  }
+  &.white {
+    color: white;
+  }
+}
+
+.button {
+  &.center {
+    margin: auto;
+  }
+}

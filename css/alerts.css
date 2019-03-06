@@ -1,0 +1,19 @@
+.alert {
+  border-radius: 5px;
+  width: 30%;
+  height: 40px;
+  opacity: 0.6; }
+  .alert.alert-primary {
+    background-color: #007cff; }
+  .alert.alert-danger {
+    background-color: #ff0000; }
+  .alert.alert-secondary {
+    background-color: #999999; }
+  .alert.alert-go {
+    background-color: #50bd00; }
+  .alert.alert-warning {
+    background-color: #fffb00; }
+  .alert.alert-light {
+    background-color: #d8d8d8; }
+  .alert.alert-dark {
+    background-color: #4c4c4c; }

@@ -1,0 +1,32 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  overflow: hidden;
+  list-style-type: none; }
+
+.navbar li {
+  float: left;
+  padding-left: 5%; }
+
+.navbar a li {
+  text-decoration: none;
+  color: black; }
+
+.navbar.full {
+  width: 100%;
+  height: 56px;
+  margin: 0px; }
+
+.navbar.primary {
+  background-color: #007cff;
+  background: #007cff; }
+
+.navbar.light {
+  background-color: #d8d8d8; }
+
+.navbar.dark {
+  background-color: #4c4c4c;
+  color: white; }
+  .navbar.dark a li {
+    color: white; }
